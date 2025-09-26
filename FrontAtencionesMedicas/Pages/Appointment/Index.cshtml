@@ -1,0 +1,113 @@
+﻿@page
+@using FrontAtencionesMedicas.ExternalServices.AppointmentServices
+@model FrontAtencionesMedicas.Pages.Appointment.IndexModel
+@{
+}
+@{
+    AppointmentServices doctorServices = new AppointmentServices();
+    var GetUsers = await doctorServices.GetAppointment();
+}
+<div class="row">
+    <div class="col-lg-12">
+
+
+        <h1>Appointment</h1>
+
+        <p>
+            <a asp-action="Create">Create New</a>
+        </p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        Appointment_Id
+                    </th>
+                    <th>
+                        PatientId
+                    </th>
+                    <th>
+                        DoctorId
+                    </th>
+                    <th>
+                        Appointment_StartUtc
+                    </th>
+                    <th>
+                        Appointment_EndUtc
+                    </th>
+                    <th>
+                        Appointment_Diagnosis
+                    </th>
+                    <th>
+                        Appointment_Room
+                    </th>
+                    <th>
+                        Appointment_Status
+                    </th>
+                    <th>
+                        Appointment_CreatedBy
+                    </th>
+                    <th>
+                        Appointment_CreatedAt
+                    </th>
+                    <th>
+                        Appointment_ModifiedBy
+                    </th>
+                    <th>
+                        Appointment_ModifiedAt
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in GetUsers.data)
+                {
+
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Appointment_Id)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PatientId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DoctorId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Appointment_StartUtc)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Appointment_EndUtc)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Appointment_Diagnosis)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Appointment_Room)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Appointment_Status)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Appointment_CreatedBy)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Appointment_CreatedAt)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Appointment_ModifiedBy)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Appointment_ModifiedAt)
+                        </td>
+              
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

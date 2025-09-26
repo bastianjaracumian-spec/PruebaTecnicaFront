@@ -1,0 +1,152 @@
+﻿@page
+@using FrontAtencionesMedicas.ExternalServices.PatientServices
+@using FrontAtencionesMedicas.Models.Patient
+
+@using Newtonsoft.Json
+@model FrontAtencionesMedicas.Pages.Patient.IndexModel
+
+@{
+    PatientServices patientServices = new PatientServices();
+    var GetUsers = await patientServices.GetUsers();
+
+}
+
+<div class="row">
+    <div class="col-lg-12">
+
+
+        <h1>Patient</h1>
+
+        <p>
+            <a asp-action="Create">Create New</a>
+        </p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        Patient_ID
+                    </th>
+                    <th>
+                        Patient_FirstName
+                    </th>
+                    <th>
+                        Patient_LastName
+                    </th>
+                    <th>
+                        Patient_RUT
+                    </th>
+                    <th>
+                        Patient_DateOfBirth
+                    </th>
+                    <th>
+                        Patient_Gender
+                    </th>
+                    <th>
+                        Patient_Phone
+                    </th>
+                    <th>
+                        Patient_Email
+                    </th>
+                    <th>
+                        Patient_AddressLine1
+                    </th>
+                    <th>
+                        Patient_AddressLine2
+                    </th>
+                    <th>
+                        Patient_City
+                    </th>
+                    <th>
+                        Patient_State
+                    </th>
+                    <th>
+                        Patient_PostalCode
+                    </th>
+                    <th>
+                        Patient_CreatedBy
+                    </th>
+                    <th>
+                        Patient_CreatedAt
+                    </th>
+                    <th>
+                        Patient_ModifiedBy
+                    </th>
+                    <th>
+                        Patient_ModifiedAt
+                    </th>
+                    <th>
+                        Patient_Active
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in GetUsers.data)
+                {
+
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Patient_Id)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Patient_FirstName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Patient_LastName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Patient_RUT)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Patient_DateOfBirth)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Patient_Gender)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Patient_Phone)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Patient_Email)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Patient_AddressLine1)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Patient_AddressLine2)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Patient_City)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Patient_State)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Patient_PostalCode)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Patient_CreatedBy)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Patient_CreatedAt)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Patient_ModifiedBy)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Patient_ModifiedAt)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Patient_Active)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
