@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cI268SHkl9Q=",
+  "dgSpecHash": "8cuIzwoONqg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bastian\\source\\repos\\FrontAtencionesMedicas\\FrontAtencionesMedicas\\FrontAtencionesMedicas.csproj",
+  "projectFilePath": "C:\\Users\\Bastian\\Desktop\\Prueba WORKCAPIT Front\\PruebaTecnicaFront\\FrontAtencionesMedicas\\FrontAtencionesMedicas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bastian\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Bastian\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

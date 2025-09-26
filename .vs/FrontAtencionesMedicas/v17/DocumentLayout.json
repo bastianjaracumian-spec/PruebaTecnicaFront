@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bastian\\Desktop\\Prueba WORKCAPIT Front\\PruebaTecnicaFront\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B055BC3-CDD4-4447-9681-746CA92221CB}|FrontAtencionesMedicas\\FrontAtencionesMedicas.csproj|c:\\users\\bastian\\desktop\\prueba workcapit front\\pruebatecnicafront\\frontatencionesmedicas\\pages\\doctor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B055BC3-CDD4-4447-9681-746CA92221CB}|FrontAtencionesMedicas\\FrontAtencionesMedicas.csproj|solutionrelative:frontatencionesmedicas\\pages\\doctor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B055BC3-CDD4-4447-9681-746CA92221CB}|FrontAtencionesMedicas\\FrontAtencionesMedicas.csproj|c:\\users\\bastian\\desktop\\prueba workcapit front\\pruebatecnicafront\\frontatencionesmedicas\\pages\\patient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B055BC3-CDD4-4447-9681-746CA92221CB}|FrontAtencionesMedicas\\FrontAtencionesMedicas.csproj|solutionrelative:frontatencionesmedicas\\pages\\patient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B055BC3-CDD4-4447-9681-746CA92221CB}|FrontAtencionesMedicas\\FrontAtencionesMedicas.csproj|c:\\users\\bastian\\desktop\\prueba workcapit front\\pruebatecnicafront\\frontatencionesmedicas\\pages\\appointment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B055BC3-CDD4-4447-9681-746CA92221CB}|FrontAtencionesMedicas\\FrontAtencionesMedicas.csproj|solutionrelative:frontatencionesmedicas\\pages\\appointment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Bastian\\Desktop\\Prueba WORKCAPIT Front\\PruebaTecnicaFront\\FrontAtencionesMedicas\\Pages\\Appointment\\Index.cshtml",
+              "RelativeDocumentMoniker": "FrontAtencionesMedicas\\Pages\\Appointment\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Bastian\\Desktop\\Prueba WORKCAPIT Front\\PruebaTecnicaFront\\FrontAtencionesMedicas\\Pages\\Appointment\\Index.cshtml",
+              "RelativeToolTip": "FrontAtencionesMedicas\\Pages\\Appointment\\Index.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T19:47:30.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Bastian\\Desktop\\Prueba WORKCAPIT Front\\PruebaTecnicaFront\\FrontAtencionesMedicas\\Pages\\Doctor\\Index.cshtml",
+              "RelativeDocumentMoniker": "FrontAtencionesMedicas\\Pages\\Doctor\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Bastian\\Desktop\\Prueba WORKCAPIT Front\\PruebaTecnicaFront\\FrontAtencionesMedicas\\Pages\\Doctor\\Index.cshtml",
+              "RelativeToolTip": "FrontAtencionesMedicas\\Pages\\Doctor\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T19:47:11.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Bastian\\Desktop\\Prueba WORKCAPIT Front\\PruebaTecnicaFront\\FrontAtencionesMedicas\\Pages\\Patient\\Index.cshtml",
+              "RelativeDocumentMoniker": "FrontAtencionesMedicas\\Pages\\Patient\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Bastian\\Desktop\\Prueba WORKCAPIT Front\\PruebaTecnicaFront\\FrontAtencionesMedicas\\Pages\\Patient\\Index.cshtml",
+              "RelativeToolTip": "FrontAtencionesMedicas\\Pages\\Patient\\Index.cshtml",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAQwJQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T19:46:17.624Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

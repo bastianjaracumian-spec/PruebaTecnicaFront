@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FrontAtencionesMedicas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ee9673771edca090b0a9061e3d56348ae3bce6d")]
 [assembly: System.Reflection.AssemblyProductAttribute("FrontAtencionesMedicas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FrontAtencionesMedicas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

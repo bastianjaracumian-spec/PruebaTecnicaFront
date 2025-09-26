@@ -17,61 +17,61 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FrontAtencionesMedicas
 build_property.RootNamespace = FrontAtencionesMedicas
-build_property.ProjectDir = C:\Users\Bastian\source\repos\FrontAtencionesMedicas\FrontAtencionesMedicas\
+build_property.ProjectDir = C:\Users\Bastian\Desktop\Prueba WORKCAPIT Front\PruebaTecnicaFront\FrontAtencionesMedicas\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Bastian\source\repos\FrontAtencionesMedicas\FrontAtencionesMedicas
+build_property.MSBuildProjectDirectory = C:\Users\Bastian\Desktop\Prueba WORKCAPIT Front\PruebaTecnicaFront\FrontAtencionesMedicas
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Bastian/source/repos/FrontAtencionesMedicas/FrontAtencionesMedicas/Pages/Appointment/Index.cshtml]
+[C:/Users/Bastian/Desktop/Prueba WORKCAPIT Front/PruebaTecnicaFront/FrontAtencionesMedicas/Pages/Appointment/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwb2ludG1lbnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bastian/source/repos/FrontAtencionesMedicas/FrontAtencionesMedicas/Pages/Doctor/Index.cshtml]
+[C:/Users/Bastian/Desktop/Prueba WORKCAPIT Front/PruebaTecnicaFront/FrontAtencionesMedicas/Pages/Doctor/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9jdG9yXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bastian/source/repos/FrontAtencionesMedicas/FrontAtencionesMedicas/Pages/Error.cshtml]
+[C:/Users/Bastian/Desktop/Prueba WORKCAPIT Front/PruebaTecnicaFront/FrontAtencionesMedicas/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bastian/source/repos/FrontAtencionesMedicas/FrontAtencionesMedicas/Pages/Index.cshtml]
+[C:/Users/Bastian/Desktop/Prueba WORKCAPIT Front/PruebaTecnicaFront/FrontAtencionesMedicas/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bastian/source/repos/FrontAtencionesMedicas/FrontAtencionesMedicas/Pages/Patient/Index.cshtml]
+[C:/Users/Bastian/Desktop/Prueba WORKCAPIT Front/PruebaTecnicaFront/FrontAtencionesMedicas/Pages/Patient/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF0aWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bastian/source/repos/FrontAtencionesMedicas/FrontAtencionesMedicas/Pages/Privacy.cshtml]
+[C:/Users/Bastian/Desktop/Prueba WORKCAPIT Front/PruebaTecnicaFront/FrontAtencionesMedicas/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bastian/source/repos/FrontAtencionesMedicas/FrontAtencionesMedicas/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Bastian/Desktop/Prueba WORKCAPIT Front/PruebaTecnicaFront/FrontAtencionesMedicas/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bastian/source/repos/FrontAtencionesMedicas/FrontAtencionesMedicas/Pages/_ViewImports.cshtml]
+[C:/Users/Bastian/Desktop/Prueba WORKCAPIT Front/PruebaTecnicaFront/FrontAtencionesMedicas/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bastian/source/repos/FrontAtencionesMedicas/FrontAtencionesMedicas/Pages/_ViewStart.cshtml]
+[C:/Users/Bastian/Desktop/Prueba WORKCAPIT Front/PruebaTecnicaFront/FrontAtencionesMedicas/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bastian/source/repos/FrontAtencionesMedicas/FrontAtencionesMedicas/Views/Patient/Index.cshtml]
+[C:/Users/Bastian/Desktop/Prueba WORKCAPIT Front/PruebaTecnicaFront/FrontAtencionesMedicas/Views/Patient/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bastian/source/repos/FrontAtencionesMedicas/FrontAtencionesMedicas/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Bastian/Desktop/Prueba WORKCAPIT Front/PruebaTecnicaFront/FrontAtencionesMedicas/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bastian/source/repos/FrontAtencionesMedicas/FrontAtencionesMedicas/Pages/Shared/_Layout.cshtml]
+[C:/Users/Bastian/Desktop/Prueba WORKCAPIT Front/PruebaTecnicaFront/FrontAtencionesMedicas/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-o8um0ifgky

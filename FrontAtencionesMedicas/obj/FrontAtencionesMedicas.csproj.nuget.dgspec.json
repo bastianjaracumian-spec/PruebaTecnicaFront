@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bastian\\source\\repos\\FrontAtencionesMedicas\\FrontAtencionesMedicas\\FrontAtencionesMedicas.csproj": {}
+    "C:\\Users\\Bastian\\Desktop\\Prueba WORKCAPIT Front\\PruebaTecnicaFront\\FrontAtencionesMedicas\\FrontAtencionesMedicas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bastian\\source\\repos\\FrontAtencionesMedicas\\FrontAtencionesMedicas\\FrontAtencionesMedicas.csproj": {
+    "C:\\Users\\Bastian\\Desktop\\Prueba WORKCAPIT Front\\PruebaTecnicaFront\\FrontAtencionesMedicas\\FrontAtencionesMedicas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bastian\\source\\repos\\FrontAtencionesMedicas\\FrontAtencionesMedicas\\FrontAtencionesMedicas.csproj",
+        "projectUniqueName": "C:\\Users\\Bastian\\Desktop\\Prueba WORKCAPIT Front\\PruebaTecnicaFront\\FrontAtencionesMedicas\\FrontAtencionesMedicas.csproj",
         "projectName": "FrontAtencionesMedicas",
-        "projectPath": "C:\\Users\\Bastian\\source\\repos\\FrontAtencionesMedicas\\FrontAtencionesMedicas\\FrontAtencionesMedicas.csproj",
+        "projectPath": "C:\\Users\\Bastian\\Desktop\\Prueba WORKCAPIT Front\\PruebaTecnicaFront\\FrontAtencionesMedicas\\FrontAtencionesMedicas.csproj",
         "packagesPath": "C:\\Users\\Bastian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bastian\\source\\repos\\FrontAtencionesMedicas\\FrontAtencionesMedicas\\obj\\",
+        "outputPath": "C:\\Users\\Bastian\\Desktop\\Prueba WORKCAPIT Front\\PruebaTecnicaFront\\FrontAtencionesMedicas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

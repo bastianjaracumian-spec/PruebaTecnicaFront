@@ -14,94 +14,96 @@
         <p>
             <a asp-action="Create">Create New</a>
         </p>
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>
-                        Doctor_Id
-                    </th>
-                    <th>
-                        Doctor_FirstName
-                    </th>
-                    <th>
-                        Doctor_LastName
-                    </th>
-                    <th>
-                        Doctor_Email
-                    </th>
-                    <th>
-                        Doctor_LicenseNumber
-                    </th>
-                    <th>
-                        SpecialityId
-                    </th>
-                    <th>
-                        Doctor_CreatedBy
-                    </th>
-                    <th>
-                        Doctor_CreatedAt
-                    </th>
-                    <th>
-                        Doctor_ModifiedBy
-                    </th>
-                    <th>
-                        Doctor_ModifiedAt
-                    </th>
-                    <th>
-                        Doctor_Active
-                    </th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var item in GetUsers.data)
-                {
-
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
                     <tr>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.Doctor_Id)
-                        </td>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.Doctor_FirstName)
-                        </td>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.Doctor_LastName)
-                        </td>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.Doctor_Email)
-                        </td>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.Doctor_Phone)
-                        </td>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.Doctor_LicenseNumber)
-                        </td>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.SpecialityId)
-                        </td>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.Doctor_CreatedBy)
-                        </td>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.Doctor_CreatedAt)
-                        </td>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.Doctor_ModifiedBy)
-                        </td>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.Doctor_ModifiedAt)
-                        </td>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.Doctor_Active)
-                        </td>
-                        <td>
-                            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-                        </td>
+                        <th>
+                            Doctor_Id
+                        </th>
+                        <th>
+                            Doctor_FirstName
+                        </th>
+                        <th>
+                            Doctor_LastName
+                        </th>
+                        <th>
+                            Doctor_Email
+                        </th>
+                        <th>
+                            Doctor_LicenseNumber
+                        </th>
+                        <th>
+                            SpecialityId
+                        </th>
+                        <th>
+                            Doctor_CreatedBy
+                        </th>
+                        <th>
+                            Doctor_CreatedAt
+                        </th>
+                        <th>
+                            Doctor_ModifiedBy
+                        </th>
+                        <th>
+                            Doctor_ModifiedAt
+                        </th>
+                        <th>
+                            Doctor_Active
+                        </th>
+                        <th></th>
                     </tr>
-                }
-            </tbody>
-        </table>
+                </thead>
+                <tbody>
+                    @foreach (var item in GetUsers.data)
+                    {
+
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Doctor_Id)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Doctor_FirstName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Doctor_LastName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Doctor_Email)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Doctor_Phone)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Doctor_LicenseNumber)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.SpecialityId)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Doctor_CreatedBy)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Doctor_CreatedAt)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Doctor_ModifiedBy)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Doctor_ModifiedAt)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Doctor_Active)
+                            </td>
+                            <td>
+                                <button class="btn btn-info">Edit</button>
+                                <button class="btn btn-primary">Details</button>
+                                <button class="btn btn-danger">Delete</button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
     </div>
 </div>
